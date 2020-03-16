@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="40px">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For Updates Follow us on"
+        android:padding="10px"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp">
+
+       <ImageButton
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:id="@+id/telegramButton"
+           android:onClick="telegramOnClick"
+           android:background="@null"
+           android:src="@mipmap/telegram"/>
+        <TextView
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/TelegramText"
+            android:text="Telegram"
+            android:textSize="24dp"
+            android:paddingLeft="40sp"
+            android:paddingTop="30sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:layout_marginLeft="20dp">
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/FacebookButton"
+            android:onClick="facebookOnclick"
+            android:src="@mipmap/facebook"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/facebooktext"
+            android:text="Facebook"
+            android:textSize="24dp"
+            android:paddingLeft="40sp"
+            android:paddingTop="30sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2019 Tibe and Yodahe Techs"
+        android:padding="10px"
+        android:textSize="15sp"
+        android:id="@+id/footer"
+        android:layout_marginTop="110dp"/>
+
+
+</LinearLayout>

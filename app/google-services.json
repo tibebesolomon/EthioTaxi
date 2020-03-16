@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "88477546637",
+    "firebase_url": "https://ethiotaxi-f71d3.firebaseio.com",
+    "project_id": "ethiotaxi-f71d3",
+    "storage_bucket": "ethiotaxi-f71d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88477546637:android:fc0ef3c7047a968c",
+        "android_client_info": {
+          "package_name": "com.example.tibsolg.ethiotaxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88477546637-9nbnaeskl1hc4fv7muq3ol8ttdabp6pa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tibsolg.ethiotaxi",
+            "certificate_hash": "60a3fdcd696cf5ecfaf037095d8ba864ecb9e61d"
+          }
+        },
+        {
+          "client_id": "88477546637-7tprmtut195aje0nn8vs4q3t87kg0b2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV6JYf08byDQ6RxwCjqZbI-H_Un6BLflc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88477546637-7tprmtut195aje0nn8vs4q3t87kg0b2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
